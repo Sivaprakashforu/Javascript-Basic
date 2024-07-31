@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>Javascript</title> 
+        <script>
+            
+            var dayofweek = prompt("Enter the day fo the Week");
+            var result;
+            dayofweek = dayofweek.toLowerCase();
+            if( dayofweek == 'monday'|| dayofweek == 'mon')
+            {
+                result="It's Monday, 1st Day of the Week.";
+            }
+            else if ( dayofweek == 'tuesday'|| dayofweek == 'tue')
+            {
+                result="It's Tuesday, 2nd Day of the Week";
+            }
+            else if ( dayofweek == 'wednesday'|| dayofweek == 'wed')
+            {
+                result="It's Wednesday, 3rd Day of the Week";
+            }
+            else if ( dayofweek == 'thursday'|| dayofweek == 'thurs'|| dayofweek=='thur')
+            {
+                result="It's Thursday, 4th Day of the Week";
+            }
+            else if ( dayofweek == 'friday'|| dayofweek == 'fri')
+            {
+                result="It's Firday, 5th Day of the Week";
+            }
+            else if ( dayofweek == 'saturday'|| dayofweek == 'sat')
+            {
+                result="It's Saturday, 6th Day of the Week";
+            } 
+            else if( dayofweek == 'sunday'|| dayofweek == 'sun')
+            {
+                result="It's Sunday, 7th Dayof the Week and Rest day";
+            }
+            else{
+                result="Cannot find the day of the Week";
+            }
+        </script>
+    
+    </head>
+    
+    <body>
+        
+        <div>
+            
+            <h1>Javascript</h1>
+            
+            <script>
+                
+                document.write(result);
+            
+            </script>
+        
+        </div>
+    
+    </body>
+
+
+</html>

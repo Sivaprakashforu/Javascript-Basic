@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>Assignment Operators</title> 
+    
+                    
+            <script>                
+                //Variable
+                var counter = 10;     
+            </script>
+        <style>
+            table,tr{
+                text-align: center;
+                width: 100%;
+                background-color: antiquewhite;
+            }
+            th,td{
+                font-size: 2em;
+                padding: 20px;
+            }
+            
+            td:hover{
+                color:blueviolet;
+            }
+            
+            img:hover{
+                border:2px solid blueviolet;
+                opacity: 0.75;
+                height:275px;
+                width:275px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        <div>
+            
+            <h1>Javascript</h1>
+            <p>Premitives</p>
+            <p id="demo"></p>
+            <ul>
+                <li>Some script</li>
+                <li>This another script</li>            
+            </ul>            
+            
+            
+            <table>
+                <tr>
+                    <th>Assignment Operator</th>                    
+                    <td>                    
+                        <a href="#" onclick="counter += 1; console.log(counter); ">Increment</a><br>
+                        <a href="#" onclick="counter -= 1; console.log(counter);">Decrement</a><br>
+                        <a href="#" onclick="counter *= counter; console.log(counter);">Multiply by same</a><br>
+                        <a href="#" onclick="counter /= 2; console.log(counter);">Division by 2.</a><br>
+                        <a href="#" onclick="counter %= counter; console.log(counter);">Modulus</a><br>
+                        <a href="#" onclick="counter **= counter; console.log(counter);">Square Mulitply=(x)<sup>x</sup></a><br>
+                        <a href="#" onclick="counter /= counter; console.log(counter);">Division by same</a><br>                       
+                     </td>                   
+                </tr>
+            </table>
+        
+        </div>
+    
+    </body>
+
+
+</html>
